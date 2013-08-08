@@ -1,0 +1,10 @@
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\GeminiRPG.exe
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\GeminiRPG.pdb
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\obj\x86\Debug\GeminiRPG.exe
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\obj\x86\Debug\GeminiRPG.pdb
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\Jean Sprite.xnb
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Blank.xnb
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Wall.xnb
+C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\BoundingBox.xnb

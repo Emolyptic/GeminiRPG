@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Characters\Jean Sprite.png</Source>
+      <Name>Characters\Jean Sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\Jean Sprite.xnb</Output>
+      <Time>2013-08-04T20:55:07.588093-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Blank.png</Source>
+      <Name>Levels\Blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Blank.xnb</Output>
+      <Time>2013-08-06T11:30:22.0608492-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Levels\Wall.png</Source>
+      <Name>Levels\Wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Wall.xnb</Output>
+      <Time>2013-08-06T11:31:18.7670926-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Characters\BoundingBox.png</Source>
+      <Name>Characters\BoundingBox</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\BoundingBox.xnb</Output>
+      <Time>2013-08-06T15:02:19.5946616-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPGContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPGContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-08-21T19:43:40.5097504-06:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
