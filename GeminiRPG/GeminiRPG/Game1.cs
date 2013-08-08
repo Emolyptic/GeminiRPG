@@ -21,6 +21,10 @@ namespace GeminiRPG
 		Vector2 mPosition = new Vector2(0, 0);
 		CharacterSprite Player;
 		Level Level1;
+		bool topoff = false;
+		bool bottomoff = false;
+		bool rightoff = false;
+		bool leftoff = false;
 
 		public Game1()
 		{
@@ -77,44 +81,34 @@ namespace GeminiRPG
 		protected override void Update(GameTime gameTime)
 		{
 			Player.Update(gameTime);
-			for (int i = 0; i < Level1.wall.Length; i++)
-			{
-				if (IntersectPixel(Player.top, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData))
-					Console.WriteLine("TOP");
 
-				if (IntersectPixel(Player.bottom, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData))
-					Console.WriteLine("BOTTOM");
-
-				if (IntersectPixel(Player.left, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData))
-					Console.WriteLine("LEFT");
-
-				if (IntersectPixel(Player.right, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData))
-					Console.WriteLine("RIGHT");
-			}
+			CheckWallCollision();
+			
 			// Allows the game to exit
 			if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
 				this.Exit();
 
-			if (GamePad.GetState(PlayerIndex.One).DPad.Down == ButtonState.Pressed)
+			if (GamePad.GetState(PlayerIndex.One).DPad.Down == ButtonState.Pressed && !bottomoff)
 			{
 				Player.Position = new Vector2(Player.Position.X, Player.Position.Y + 1);
 			}
 
-			if (GamePad.GetState(PlayerIndex.One).DPad.Up == ButtonState.Pressed)
+			if (GamePad.GetState(PlayerIndex.One).DPad.Up == ButtonState.Pressed && !topoff)
 			{
 				Player.Position = new Vector2(Player.Position.X, Player.Position.Y - 1);
 			}
 
-			if (GamePad.GetState(PlayerIndex.One).DPad.Left == ButtonState.Pressed)
+			if (GamePad.GetState(PlayerIndex.One).DPad.Left == ButtonState.Pressed && !leftoff)
 			{
 				Player.Position = new Vector2(Player.Position.X - 1, Player.Position.Y);
 			}
 
-			if (GamePad.GetState(PlayerIndex.One).DPad.Right == ButtonState.Pressed)
+			if (GamePad.GetState(PlayerIndex.One).DPad.Right == ButtonState.Pressed && !rightoff)
 			{
 				Player.Position = new Vector2(Player.Position.X + 1, Player.Position.Y);
 			}
 
+			
 			// TODO: Add your update logic here
 
 			base.Update(gameTime);
@@ -135,6 +129,29 @@ namespace GeminiRPG
 			spriteBatch.End();
 
 			base.Draw(gameTime);
+		}
+
+		void CheckWallCollision()
+		{
+			topoff = false;
+			bottomoff = false;
+			leftoff = false;
+			rightoff = false;
+			
+			for (int i = 0; i < Level1.wall.Length; i++)
+			{
+				if (IntersectPixel(Player.top, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData[i]))
+					topoff = true;
+
+				if (IntersectPixel(Player.bottom, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData[i]))
+					bottomoff = true;
+
+				if (IntersectPixel(Player.left, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData[i]))
+					leftoff = true;
+
+				if (IntersectPixel(Player.right, Player.textureData, Level1.wallRectangle[i], Level1.wallTextureData[i]))
+					rightoff = true;
+			}
 		}
 
 		static bool IntersectPixel(Rectangle rect1, Color[] data1,

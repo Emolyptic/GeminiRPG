@@ -27,13 +27,13 @@ namespace GeminiRPG
 		public Rectangle left;
 
 
-		//public Texture2D boundingBox;
+		public Texture2D boundingBox;
 		public Color[] textureData;
 
 		//Load the texture for the sprite using the Content Pipeline
 		public void LoadContent(ContentManager theContentManager, string theAssetName)
 		{
-			//boundingBox = theContentManager.Load<Texture2D>("Characters/BoundingBox");
+			boundingBox = theContentManager.Load<Texture2D>("Characters/BoundingBox");
 			spriteTexture = theContentManager.Load<Texture2D>(theAssetName);
 
 			textureData = new Color[spriteTexture.Width * spriteTexture.Height];
@@ -45,15 +45,19 @@ namespace GeminiRPG
 		{
 			//theSpriteBatch.Draw(boundingBox, new Vector2 (Position.X - 3.5f ,Position.Y -3.5f) , Color.White);
 			theSpriteBatch.Draw(spriteTexture, Position, Color.White);
+			theSpriteBatch.Draw(boundingBox, top, Color.Blue);
+			theSpriteBatch.Draw(boundingBox, bottom, Color.Blue);
+			theSpriteBatch.Draw(boundingBox, left, Color.Blue);
+			theSpriteBatch.Draw(boundingBox, right, Color.Blue);
 		}
 
 		public void Update(GameTime gameTime)
 		{
 			//spriteRect = new Rectangle((int)Position.X, (int)Position.Y, spriteTexture.Width, spriteTexture.Height);
-			top = new Rectangle((int)Position.X, (int)Position.Y - 32, spriteTexture.Width-4, 4);
-			bottom = new Rectangle((int)Position.X, (int)Position.Y + 32, spriteTexture.Width-4, 4);
-			right = new Rectangle((int)Position.X + 32 , (int)Position.Y, 4, spriteTexture.Height-4);
-			left = new Rectangle((int)Position.X - 32, (int)Position.Y, 4, spriteTexture.Height-4);
+			top = new Rectangle((int)Position.X, (int)Position.Y - 4, spriteTexture.Width-2, 4);
+			bottom = new Rectangle((int)Position.X, (int)Position.Y + 30, spriteTexture.Width-2, 4);
+			right = new Rectangle((int)Position.X + 30 , (int)Position.Y, 4, spriteTexture.Height-2);
+			left = new Rectangle((int)Position.X - 4, (int)Position.Y, 4, spriteTexture.Height-2);
 		}
 
 	}

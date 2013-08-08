@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\Jean Sprite.xnb</Output>
+      <Output>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\Jean Sprite.xnb</Output>
       <Time>2013-08-04T20:55:07.588093-06:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Blank.xnb</Output>
+      <Output>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Blank.xnb</Output>
       <Time>2013-08-06T11:30:22.0608492-06:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Wall.xnb</Output>
+      <Output>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Levels\Wall.xnb</Output>
       <Time>2013-08-06T11:31:18.7670926-06:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\BoundingBox.xnb</Output>
+      <Output>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\Characters\BoundingBox.xnb</Output>
       <Time>2013-08-06T15:02:19.5946616-06:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -43,10 +43,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPGContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPGContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPGContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPG\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPGContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPG\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

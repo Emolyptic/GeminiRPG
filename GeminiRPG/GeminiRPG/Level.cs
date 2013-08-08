@@ -18,13 +18,13 @@ namespace GeminiRPG
 		public Rectangle[] wallRectangle;
 		public Texture2D[] blank;
 
-		public Color[] wallTextureData;
+		public Color[][] wallTextureData;
 
 		public Level()
 		{
 			wall = new Texture2D[38];
 			blank = new Texture2D[62];
-			wallTextureData = new Color[38];
+			wallTextureData = new Color[38][];
 			wallRectangle = new Rectangle[38];
 		}
 
@@ -33,8 +33,8 @@ namespace GeminiRPG
 			for (int i = 0; i < 38; i++) 
 			{
 				wall[i] = theContentManager.Load<Texture2D>("Levels/Wall");
-				wallTextureData = new Color[wall[i].Width * wall[i].Height];
-				wall[i].GetData(wallTextureData);
+				wallTextureData[i] = new Color[wall[i].Width * wall[i].Height];
+				wall[i].GetData(wallTextureData[i]);
 				wallRectangle[i] = new Rectangle(0, 0, wall[i].Width, wall[i].Height);
 			}
 			for (int q = 0; q < 11; q++)

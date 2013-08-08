@@ -1,1 +1,2 @@
 C:\Users\Emolyptic\Documents\Visual Studio 2010\Projects\GeminiRPG\GeminiRPG\GeminiRPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\GeminiRPG\GeminiRPGContent\obj\x86\Debug\ResolveAssemblyReference.cache
