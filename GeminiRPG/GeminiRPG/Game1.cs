@@ -90,22 +90,22 @@ namespace GeminiRPG
 
 			if (GamePad.GetState(PlayerIndex.One).DPad.Down == ButtonState.Pressed && !bottomoff)
 			{
-				Player.Position = new Vector2(Player.Position.X, Player.Position.Y + 1);
+				Player.Position = new Vector2(Player.Position.X, Player.Position.Y + 1.5f);
 			}
 
 			if (GamePad.GetState(PlayerIndex.One).DPad.Up == ButtonState.Pressed && !topoff)
 			{
-				Player.Position = new Vector2(Player.Position.X, Player.Position.Y - 1);
+				Player.Position = new Vector2(Player.Position.X, Player.Position.Y - 1.5f);
 			}
 
 			if (GamePad.GetState(PlayerIndex.One).DPad.Left == ButtonState.Pressed && !leftoff)
 			{
-				Player.Position = new Vector2(Player.Position.X - 1, Player.Position.Y);
+				Player.Position = new Vector2(Player.Position.X - 1.5f, Player.Position.Y);
 			}
 
 			if (GamePad.GetState(PlayerIndex.One).DPad.Right == ButtonState.Pressed && !rightoff)
 			{
-				Player.Position = new Vector2(Player.Position.X + 1, Player.Position.Y);
+				Player.Position = new Vector2(Player.Position.X + 1.5f, Player.Position.Y);
 			}
 
 			
