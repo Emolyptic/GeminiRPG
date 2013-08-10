@@ -1,0 +1,9 @@
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\bin\Debug\LevelEditorGeminiRPG.exe
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\bin\Debug\LevelEditorGeminiRPG.pdb
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\obj\x86\Debug\LevelEditorGeminiRPG.Form1.resources
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\obj\x86\Debug\LevelEditorGeminiRPG.Properties.Resources.resources
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\obj\x86\Debug\LevelEditorGeminiRPG.exe
+C:\Users\Emolyptic\Desktop\GeminiRPG\GeminiRPG\LevelEditorGeminiRPG\LevelEditorGeminiRPG\obj\x86\Debug\LevelEditorGeminiRPG.pdb
